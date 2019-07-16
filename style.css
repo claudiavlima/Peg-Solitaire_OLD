@@ -1,19 +1,55 @@
 body{
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 }
 
-.footer{
-margin-top: 30px;
-
-
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10%;
+width: 100%;
 }
+
+.header img{
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+#Menu .button{
+width: 30px;
+height: 10px;
+}
+
+#Menu {
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center; 
+  
+  flex-direction: column;
+}
+
 .container h1{
   text-align: center;
   font-weight: bold;
 }
+
+
+.footer{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top:90%;
+  }
 
 .board{
     background-color: #cccccc;
